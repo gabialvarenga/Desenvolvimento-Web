@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /*  text-align: center;
+    align-items: center; */
+}
+
+/*classe se usa (.)*/
+.menu-principal {
+    background-color: rgba(93, 179, 194, 0.719);
+    padding: 1.5rem;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+li {
+    list-style: none;
+
+}
+
+ul {
+    display: flex;
+}

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://user-images.githubusercontent.com/13468728/233847739-219cb494-c265-4554-820a-bd3424c59065.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    height: 400px;
+    width: 25rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+.title h1 {
+    font-weight: bold;
+    color: #50214c88;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem;
+}
+
+
+
+.input-box input {
+    margin: 0.6rem 0;
+    margin-right: 9px;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    width: 300px;
+    border-radius: 4px;
+    background-color: rgba(255, 200, 200, 0);
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 9px 16px #0000001c;
+    outline: none;
+}
+
+.input-box label {
+    color: white;
+}
+
+.input-box #cadeado {
+    color: white;
+    font-size: larger;
+}
+
+.input-box #carta {
+    color: white;
+    font-size: larger;
+}
+
+.lembra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: smaller;
+    gap: 10px;
+}
+
+.remember {
+    color: white;
+
+}
+
+.forget-password {
+    color: white;
+    cursor: pointer;
+}
+
+.forget-password:hover {
+    color: rgb(249, 240, 255);
+}
+
+.remember input[type="checkbox"] {
+    accent-color: #50214c88;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.login-btn button {
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    margin: 0.6rem 0;
+    margin-right: 9px;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    width: 290px;
+    border-radius: 20px;
+    background: white;
+    color: rgba(53, 31, 78, 0.541);
+    font-weight: bold;
+
+}
+
+.login-btn button:hover {
+   background-color: #5c4f8c4f;
+}
+
+
+.msg0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: smaller;
+    color: white ;
+}
+
+.msg1 {
+    padding-right: 0.5rem;
+}
+
+.msg2 {
+    cursor: pointer;
+}
+.msg2:hover {
+    color: rgb(249, 240, 255);
+}
